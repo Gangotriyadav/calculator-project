@@ -1,0 +1,35 @@
+.container {
+    background-color:burlywood;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 400px;
+    width: 300px;
+  }
+  
+  .container1 {
+    margin-bottom: 10px;
+  }
+  
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    grid-column: span 4;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-align: right;
+  }
+  
+  button {
+    background-color: aquamarine;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
